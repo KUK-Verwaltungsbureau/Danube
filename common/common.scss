@@ -26,7 +26,7 @@
 #create-topic.btn-default{
     color: $primary !important;
     bottom: unset;
-    top: 30%;
+    top: 145px;
     right: 2.3rem !important;
     width: 175px !important;
     border-radius: 40px;
@@ -170,9 +170,9 @@ a.title, a.fancy-title{
         min-height: 48px;
     }
     .widget-link{
-        font-family: 'Kurale';
-        text-transform: uppercase;
+        font-family: 'Raleway';
         font-weight: 700;
+        color: #c6bc79;
 
         &:hover{
             color: $tertiary !important;
