@@ -1,0 +1,170 @@
+// Chat fullscreen
+.babble-sidebar.expanded {
+    width: 100% !important;
+    height: 100% !important;
+    opacity: 1;
+}
+
+.custom-wizard .wizard-step-banner img{
+    max-width: 100%;
+}
+.lazyYT {
+    height: 0 !important;
+    width: 100% !important;
+    padding-bottom: 56.25% !important;
+}
+@mixin transparent{
+    background: rgba(255,255,255,0.6);
+    min-height: 3rem;
+    padding: 10px 5px 0px;
+    border-radius: 5px;
+}
+//                  Subkategorie:
+.category-box{
+    background: #ECE9E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+//                  Fonty:
+
+@font-face{
+    font-family: 'Josefin Slab';
+    src: url($Josefin)
+}
+@import url('https://fonts.googleapis.com/css?family=Kurale|Raleway:500&subset=latin-ext');
+//                  Avatary:
+
+.topic-avatar{
+    width: unset;
+        img.avatar{
+        clip-path: ellipse(40% 50%);
+    }
+        .avatar-flair.rounded {
+        border-radius: 0 0 100% 100%;
+        width: 25px;
+        height: 30px;
+        bottom: -1rem;
+        left: 0.1rem;
+        box-shadow: 0 0 0 1px, 2px 2px 3px #161616;
+        background-image: linear-gradient(to left,transparent, transparent 50%, rgba(255, 255, 255, 0.3) 51%,transparent);
+        background-size: unset;
+        font-size: 1.2rem;
+        padding: .15rem;
+    }
+}
+
+//                  Ikonka czatu:
+
+.babble-sidebar-collapsed--left{
+    border-radius: 0 100px 100px 0 !important;
+    top: 160px;
+}
+
+.babble-sidebar-collapsed i{
+    font-size: 30px;
+    margin-top: -5px;
+}
+
+.babble-unread{
+    background: $success;
+}
+//                  Główne:
+
+#main-outlet{
+    padding-top: 100px;
+}
+//  Listy
+.category-list, .topic-list, .latest-topic-list {
+    background: rgba(255,255,255,0.95);
+    border-radius: 8px;
+    padding-bottom: 5% !important;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.8) !important;
+}
+html{
+    background: url($back3e);
+    body{
+        font-size: 12pt;
+        font-family: 'Raleway';
+        font-weight: 500;
+    }
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Kurale';
+}
+.topic-list-bottom{
+    background: $secondary;
+    padding: 0.6em 1.1em;
+}
+.container.group, .groups-table, .about-page .body-page, .list-controls, .main-nav, #topic-footer-buttons{
+    @include transparent;
+}
+.groups-table-row:nth-child(odd){
+    background: whitesmoke;
+}
+
+.nav-stacked{
+    background: #f9f8f1 !important;
+    margin-left: -1.65em;
+}
+.user-preferences, .user-table .top-section{
+    background: $secondary;
+    box-shadow: -1px 0 4px $primary;
+    padding: 1em;
+}
+a.title, a.fancy-title{
+    font-family: 'Josefin Slab';
+    letter-spacing: -2px;
+    font-size: larger !important;
+}
+//                  Online:
+#whos-online{
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 0.5rem;
+}
+//                  Edycja posta typu Wiki
+.wiki button.edit {
+    float: left;
+    display: block;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    background: lighten($tertiary, 40%);
+}
+//                  Obrazki kategorii
+.category-logo{
+    margin-left: -60px;
+    max-height: 200px;
+}
+//                  Przycisk nowego tematu:
+#create-topic.btn-default{
+    color: $secondary !important;
+    bottom: unset;
+    top: 30%;
+    right: 2.3rem !important;
+    width: 120px !important;
+    height: 120px !important;
+    border-radius: 100% !important;
+    white-space: pre !important;
+    background-color: brighten($tertiary, 10%) !important;
+}
+//                  Brand header
+.b-header{
+    background-color: #161616 !important;
+
+    #brand-logo{
+        min-height: 48px;
+    }
+    .widget-link{
+        font-family: 'Kurale';
+        text-transform: uppercase;
+        font-weight: bold;
+
+        &:hover{
+            color: $tertiary !important;
+            background-color: unset !important;
+        }
+    }
+}
