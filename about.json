@@ -9,9 +9,9 @@
     "danube": {
       "primary": "161616",
       "secondary": "f9f8f1",
-      "tertiary": "b8860b",
-      "quaternary": "801010",
-      "header_background": "000",
+      "tertiary": "ffcc00",
+      "quaternary": "b8860b",
+      "header_background": "000000",
       "header_primary": "f9f8f1",
       "highlight": "e45735",
       "danger": "e45735",

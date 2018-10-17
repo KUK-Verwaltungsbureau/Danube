@@ -18,6 +18,14 @@
  h1, h2, h3, h4, h5, h6{
      font-family: 'Kurale';
  }
+//    Przycisk nowego tematu:
+#create-topic.btn-default{
+    color: $primary !important;
+    bottom: unset;
+    top: 30%;
+    right: 2.3rem !important;
+    width: 175px !important;
+}
 // Chat fullscreen
 .babble-sidebar.expanded {
     width: 100% !important;
@@ -142,18 +150,6 @@ a.title, a.fancy-title{
 .category-logo{
     margin-left: -60px;
     max-height: 200px;
-}
-//                  Przycisk nowego tematu:
-#create-topic.btn-default{
-    color: $secondary !important;
-    bottom: unset;
-    top: 30%;
-    right: 2.3rem !important;
-    width: 120px !important;
-    height: 120px !important;
-    border-radius: 100% !important;
-    white-space: pre !important;
-    background-color: brighten($tertiary, 10%) !important;
 }
 //                  Brand header
 .b-header{
