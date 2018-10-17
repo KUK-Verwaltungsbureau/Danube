@@ -3,7 +3,7 @@
  *  Zastąpić fonty własnymi
  */
   @import url('https://fonts.googleapis.com/css?family=Kurale&subset=latin-ext');
-  @import url('https://brick.freetls.fastly.net/Raleway:500,500i');
+  @import url('https://brick.freetls.fastly.net/Raleway:500,500i,800,800i');
 
  //     Podstawowe:
  html{
@@ -15,8 +15,13 @@
          font-weight: 500;
      }
  }
+
  h1, h2, h3, h4, h5, h6{
      font-family: 'Kurale';
+ }
+
+ a {
+   font-weight: 800;
  }
 //    Przycisk nowego tematu:
 #create-topic.btn-default{
