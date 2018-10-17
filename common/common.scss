@@ -172,8 +172,9 @@ a.title, a.fancy-title{
     }
     .widget-link{
         font-family: 'Raleway';
-        font-weight: 700;
+        font-weight: 800;
         color: #c6bc79 !important;
+        font-size: 12pt !important;
 
         &:hover{
             color: $tertiary !important;
