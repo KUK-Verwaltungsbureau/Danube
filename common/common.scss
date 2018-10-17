@@ -1,6 +1,6 @@
  //     Fonty:
  /* TODO:
- *  Zastąpić fonty własnymi
+ *  Zastąpić własnymi
  */
   @import url('https://fonts.googleapis.com/css?family=Kurale&subset=latin-ext');
   @import url('https://brick.freetls.fastly.net/Raleway:500,500i,800,800i');
@@ -23,7 +23,7 @@
  a {
    font-weight: 800;
  }
-//    Przycisk nowego tematu:
+//  Przycisk nowego tematu:
 #create-topic.btn-default{
     color: $primary !important;
     bottom: unset;
@@ -32,6 +32,12 @@
     width: 175px !important;
     border-radius: 40px;
 }
+
+//  Topic list previews
+.social-footer .topic-meta{
+    margin-right: auto;
+}
+
 // Chat fullscreen
 .babble-sidebar.expanded {
     width: 100% !important;
