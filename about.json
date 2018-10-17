@@ -3,7 +3,7 @@
   "about_url": "https://github.com/KUK-Verwaltungsbureau/Danube/README.md",
   "license_url": "https://github.com/KUK-Verwaltungsbureau/Danube/LICENSE",
   "color_schemes":{
-    "Danube": {
+    "danube": {
       "primary": "161616",
       "secondary": "f9f8f1",
       "tertiary": "b8860b",
