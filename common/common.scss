@@ -25,6 +25,7 @@
     top: 30%;
     right: 2.3rem !important;
     width: 175px !important;
+    border-radius: 40px;
 }
 // Chat fullscreen
 .babble-sidebar.expanded {
@@ -127,9 +128,8 @@ background: linear-gradient(to top, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Fir
     padding: 1em;
 }
 a.title, a.fancy-title{
-    font-family: 'Josefin Slab';
-    letter-spacing: -2px;
-    font-size: larger !important;
+    font-family: 'Kurale';
+    font-size: 120%;
 }
 //                  Online:
 #whos-online{
