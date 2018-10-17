@@ -6,17 +6,17 @@
     "background": "assets/background.jpg"
   },
   "color_schemes":{
-    "danube": {
+    "Danube Neue": {
       "primary": "161616",
-      "secondary": "f9f8f1",
-      "tertiary": "ffcc00",
-      "quaternary": "b8860b",
+      "secondary": "fafad2",
+      "tertiary": "b8860b",
+      "quaternary": "ffd700",
       "header_background": "000000",
-      "header_primary": "f9f8f1",
-      "highlight": "e45735",
+      "header_primary": "fffff0",
+      "highlight": "7fff00",
       "danger": "e45735",
-      "success": "009900",
-      "love": "801010"
+      "success": "228B22",
+      "love": "b22222"
     }
   }
 }
