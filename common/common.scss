@@ -122,7 +122,7 @@ background: linear-gradient(to top, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Fir
     background: $secondary;
     padding: 0.6em 1.1em;
 }
-.container.group, .groups-table, .about-page .body-page, .list-controls, .main-nav, #topic-footer-buttons{
+#topic-title .title-wrapper, .container.group, .groups-table, .about-page .body-page, .list-controls, .main-nav, #topic-footer-buttons{
     @include transparent;
 }
 .groups-table-row:nth-child(odd){
