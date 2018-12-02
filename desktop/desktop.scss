@@ -2,3 +2,23 @@
 body{
   font-size: 12pt;
 }
+/*Increase avatars*/
+
+.topic-avatar {
+  width: 120px;
+  .avatar {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+/*Avatars in the embedded replies will remain the default size,
+increase or decrease the size according to your needs*/
+
+.embedded-posts .topic-avatar {
+  width: 45px;
+  img.avatar {
+    width: 45px;
+    height: 45px;
+  }
+}
