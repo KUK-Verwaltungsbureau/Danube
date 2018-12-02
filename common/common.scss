@@ -24,16 +24,16 @@
  }
 //  Przycisk nowego tematu:
 #create-topic.btn-default{
-    color: $primary !important;
+    color: $secondary !important;
     bottom: unset;
     top: 145px;
     right: 2.3rem !important;
     width: 175px !important;
     border-radius: 40px;
     &:not(:hover):not(:active):not(:focus) .d-button-label {
-      opacity: unset;
-      width: unset;
-      margin: unset;
+      opacity: unset !important;
+      width: unset !important;
+      margin: unset !important;
     }
 }
 
